@@ -6,9 +6,10 @@ body {
 }
 
 #header {
-    margin: 0px;
+    margin: 10px 0px 10px 0px;
     padding: 0px;
     width: 100%;
+    border: solid black 1px;
 }
 
 h1 {
