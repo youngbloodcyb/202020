@@ -18,3 +18,6 @@ const timer = () => {
         }
     }, 1000);
 }
+
+const start = document.getElementById('start');
+start.addEventListener('click', timer);

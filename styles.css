@@ -29,11 +29,32 @@ body {
 }
 
 h1 {
-    padding: 15px;
+    padding-top: 20px;
     margin-top: 0px;
     text-align: center;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
 
 p {
     height: 20px;
+    font-size: x-large;
+    padding-bottom: 20px;
 }
+
+button {
+   background-color: black;
+   color: white;
+   padding: 10px 25px 10px 25px; 
+   border: none;
+   font-size: larger;
+   font-weight: semi-bold;
+   border-radius: 5px;
+   margin: 10px 0px 10px 0px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: gray;
+}
+
