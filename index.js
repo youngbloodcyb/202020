@@ -13,8 +13,9 @@ const timer = (e) => {
 
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timer").innerHTML = "Look away!";
+            document.getElementById("timer").innerHTML = "Take a Break!";
             window.alert("Look away!");
+            e.target.addEventListener(e.type, timer);
         }
     }, 1000);
     e.target.removeEventListener(e.type, timer);
