@@ -28,6 +28,26 @@ body {
     text-align: center;
 }
 
+#text-box {
+    height: 100%;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+}
+
+#text-wrapper {
+    margin: 30px 40px 0 40px;
+    height: 100%;
+}
+
+#text-box p {
+    color: white;
+    font-size: medium;
+}
+
+#text-box h3 {
+    color: white;
+}
+
 h1 {
     padding-top: 20px;
     margin-top: 0px;
@@ -50,7 +70,7 @@ button {
    font-size: larger;
    font-weight: semi-bold;
    border-radius: 5px;
-   margin: 10px 0px 10px 0px;
+   margin: 10px 0px 30px 0px;
 }
 
 button:hover {
