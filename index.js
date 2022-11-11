@@ -1,4 +1,4 @@
-const timer = () => {
+const timer = (e) => {
     let now = new Date().getTime();
     const future = now + (1000 * 60 * 20);
 
@@ -17,6 +17,7 @@ const timer = () => {
             window.alert("Look away!");
         }
     }, 1000);
+    e.target.removeEventListener(e.type, timer);
 }
 
 const start = document.getElementById('start');
