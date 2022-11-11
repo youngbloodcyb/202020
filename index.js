@@ -1,11 +1,12 @@
-const now = new Date().getTime();
+let now = new Date().getTime();
 const future = now + (1000 * 60 * 20);
 
-const x = setInterval(() => {
-    const distance = future - now;
+let x = setInterval(() => {
+    now = new Date().getTime();
+    let distance = future - now;
 
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("timer").innerHTML = minutes + "m " + seconds + "s ";
 
