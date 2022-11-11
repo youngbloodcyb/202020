@@ -1,18 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-container {
     height: 400px;
     width: 300px;
-    border: solid 1px red;
+    background-color: #fff382;
+    border-radius: 5px;
     margin: 0px;
 }
 
 #header {
-    margin: 10px 0px 10px 0px;
     padding: 0px;
     width: 100%;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 h1 {
-    padding: 0px;
-    margin: 0px;
+    padding: 15px;
+    margin-top: 0px;
+    text-align: center;
 }
