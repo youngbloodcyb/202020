@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "20 / 20 / 20",
+    "description": "Reminder to look away from your screen.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icons8-eye-50.png"
+    }
+  }
